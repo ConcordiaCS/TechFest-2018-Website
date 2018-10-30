@@ -22,7 +22,7 @@ function calculate() {
     var bmi = 0;
     bmi = 703 * (weight / (height*height));
 
-    document.getElementById("result").innerHTML = "Hello, " + name + "!\nYour BMI is " + Math.round(bmi) + ".\nHave a nice day!";
+    document.getElementById("result").innerHTML = "Hello, " + name + "!\nYour BMI is " + (Math.round(bmi * 10) / 10) + ".\nHave a nice day!";
 
 }
 
