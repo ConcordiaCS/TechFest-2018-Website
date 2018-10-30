@@ -1,0 +1,35 @@
+p {
+    font-family: calibri;
+}
+
+h1 {
+    font-family: calibri, bold;
+    text-align: center;
+}
+
+#input {
+    border: 2px solid;
+    border-color: #6F6F6F;
+    width: 350px;
+    margin: auto;
+    padding: 15px;
+}
+
+#footer {
+    position: relative;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(130, 27, 63, 0.95);
+    padding-top: 10px;
+}
+
+#footer_text {
+    color: #8F8F8F;
+    
+}
+
+#link {
+    color: #7F7F7F;
+}
