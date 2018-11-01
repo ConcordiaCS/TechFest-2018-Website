@@ -12,17 +12,16 @@ function calculate() {
     var weight = document.getElementById("weight").value;
     var feet = document.getElementById("feet").value;
     var inches = document.getElementById("inches").value;
-    var height = (height * 12) + inches;
+    var height = (feet * 12) + inches;
 
     console.log(weight);
 
-    if(weight == "" || height == "") {
+    if(weight == "" || feet == "" || inches == "") {
         result.innerHTML = "Please enter numbers in the number fields!";
         return false;
     }
 
-    var bmi = 0;
-    bmi = 703 * (weight / (height * height));
+    var bmi = 703 * (weight / (height * height));
 
     document.getElementById("result").innerHTML = "Hello, " + name + "!\nYour BMI is " + (Math.round(bmi * 10) / 10) + ".\nHave a nice day!";
 
