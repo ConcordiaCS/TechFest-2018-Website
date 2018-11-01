@@ -35,7 +35,11 @@ function calculate() {
         category = "obese";
     }
 
-    document.getElementById("result").innerHTML = "Hello, " + name + "!\nYour BMI is " + (Math.round(bmi * 10) / 10) + ", and your weight category is " + category + ".\nHave a nice day!";
+    if(bmi > 10) {
+        document.getElementById("result").innerHTML = "Hello, " + name + "!\nYour BMI is " + (Math.round(bmi * 10) / 10) + ", and your weight category is " + category + ".\nHave a nice day!";
+    } else {
+        document.getElementById("result").innerHTML = "Invalid BMI! Please check your inputs!";
+    }
 
 }
 
