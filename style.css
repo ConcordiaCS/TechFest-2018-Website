@@ -7,13 +7,20 @@ h1 {
     text-align: center;
 }
 
-#input {
+#input1 {
     border: 2px solid;
     border-color: #9B1818;
-    width: 450px;
+    width: 350px;
     margin: auto;
     padding: 15px;
 }
+#input2 {
+    border: 4px solid;
+    border-color: #9B1818;
+    width: 550px;
+    margin: auto;
+    padding: 15px;
+  }
 
 #footer {
     position: relative;
