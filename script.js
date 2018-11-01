@@ -12,9 +12,10 @@ function calculate() {
     var weight = document.getElementById("weight").value;
     var feet = document.getElementById("feet").value;
     var inches = document.getElementById("inches").value;
-    var height = (feet * 12) + inches;
+    var height = (parseInt(feet) * 12) + parseInt(inches);
 
     console.log(weight);
+    console.log(height);
 
     if(weight == "" || feet == "" || inches == "") {
         result.innerHTML = "Please enter numbers in the number fields!";
