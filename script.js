@@ -10,7 +10,9 @@ function calculate() {
 
     var name = document.getElementById("name").value;
     var weight = document.getElementById("weight").value;
-    var height = document.getElementById("height").value;
+    var feet = document.getElementById("feet").value;
+    var inches = document.getElementById("inches").value;
+    var height = (height * 12) + inches;
 
     console.log(weight);
 
@@ -20,7 +22,7 @@ function calculate() {
     }
 
     var bmi = 0;
-    bmi = 703 * (weight / (height*height));
+    bmi = 703 * (weight / (height * height));
 
     document.getElementById("result").innerHTML = "Hello, " + name + "!\nYour BMI is " + (Math.round(bmi * 10) / 10) + ".\nHave a nice day!";
 
