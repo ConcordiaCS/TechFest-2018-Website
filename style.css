@@ -16,8 +16,10 @@ h1 {
   }
 
 #picture {
-  position: relative;
-  text-align: left;
+  width: 150px;
+  height: 150px;
+  top: 50px;
+  left: 50px;
 
 }
 
