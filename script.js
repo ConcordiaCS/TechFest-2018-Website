@@ -22,8 +22,19 @@ function calculate() {
     }
 
     var bmi = 703 * (weight / (height * height));
+    var category = "";
 
-    document.getElementById("result").innerHTML = "Hello, " + name + "!\nYour BMI is " + (Math.round(bmi * 10) / 10) + ".\nHave a nice day!";
+    if(bmi < 18.5) {
+        category = "underweight";
+    } else if(bmi <= 24.9) {
+        category = "normal";
+    } else if(bmi <= 29.9) {
+        category = "overweight";
+    } else if(bmi > 30) {
+        category = "obese";
+    }
+
+    document.getElementById("result").innerHTML = "Hello, " + name + "!\nYour BMI is " + (Math.round(bmi * 10) / 10) + ", and your weight category is " + category + ".\nHave a nice day!";
 
 }
 
