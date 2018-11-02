@@ -29,10 +29,9 @@ h1 {
 }
 
 #footer {
-    position: relative;
+    position: absolute;
     text-align: center;
-    left: 0;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
     background-color: rgba(130, 27, 63, 0.95);
     padding-top: 10px;
