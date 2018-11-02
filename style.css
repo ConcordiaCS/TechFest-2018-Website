@@ -16,10 +16,15 @@ h1 {
   }
 
 #picture {
-  width: 150px;
-  height: 150px;
-  top: 100px;
-  left: 50px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#picture2 {
+    position: absolute;
+    top: 50px;
+    right: 50px;
 
 }
 
