@@ -6,7 +6,6 @@ h1 {
     color: #FFFFFF;
     font-family: calibri, bold;
     text-align: center;
-
 }
 
 #input {
@@ -17,7 +16,6 @@ h1 {
     height: 250px;
     margin: auto;
     padding: 15px;
-
   }
 
   #output {
@@ -27,7 +25,6 @@ h1 {
 #header {
   background-color: rgba(130, 27, 63, 0.95);
   padding-top: 10px;
-
 }
 
 #clhslogo {
@@ -40,7 +37,6 @@ h1 {
     position: absolute;
     top: 180px;
     right: 50px;
-
 }
 
 #footer {
@@ -54,7 +50,6 @@ h1 {
 
 #footer_text {
     color: #FFFFFF;
-
 }
 
 #link {
