@@ -29,15 +29,42 @@ h1 {
 }
 
 #clhslogo {
-    position: absolute;
-    top: 150px;
-    left: 50px;
+  position: absolute;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+  top: 150px;
+  left: -550px;
+
+  /* above works but when you use the bar to scroll left and right it doesn't work
+  below is the original code
+
+/*
+position: absolute;
+top: 150px;
+left: 50px;
+*/
+
 }
 
 #clhsbuilding {
-    position: absolute;
-    top: 180px;
-    right: 50px;
+  position: absolute;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+  top: 180px;
+  right: -500px;
+
+/* above works but when you use the bar to scroll left and right it doesn't work
+below is the original code
+*/
+
+  /*
+  position: absolute;
+  top: 180px;
+  right: 50px;
+  */
+
 }
 
 #footer {
