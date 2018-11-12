@@ -60,7 +60,11 @@ h1 {
 }
 
  #about{
+<<<<<<< HEAD
    position: static;
+=======
+   psition: absolute;
+>>>>>>> a676de70870f46595ef6b80444eaa48b1e36947f
    border: 4px solid;
    border-color: #9B1818;
    background-color: #f3f3f3;
