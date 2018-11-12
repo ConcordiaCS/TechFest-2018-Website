@@ -18,7 +18,7 @@ function calculate() {
     console.log(height);
 
     if(weight == "" || feet == "" || inches == "") {
-        result.innerHTML = "Please enter numbers in the number fields!";
+        result.innerHTML = "Please make sure to enter numbers in all number fields!";
         return false;
     }
 
