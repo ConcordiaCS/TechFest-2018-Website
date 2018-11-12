@@ -36,15 +36,6 @@ h1 {
   top: 150px;
   left: -550px;
 
-  /* above works but when you use the bar to scroll left and right it doesn't work
-  below is the original code
-
-/*
-position: absolute;
-top: 150px;
-left: 50px;
-*/
-
 }
 
 #clhsbuilding {
@@ -55,15 +46,6 @@ left: 50px;
   top: 180px;
   right: -500px;
 
-/* above works but when you use the bar to scroll left and right it doesn't work
-below is the original code
-*/
-
-  /*
-  position: absolute;
-  top: 180px;
-  right: 50px;
-  */
 
 }
 
@@ -94,18 +76,10 @@ below is the original code
 
  #techFest {
    position: absolute;
-<<<<<<< HEAD
    text-align: center;
    bottom: 0px;
    width: 100%;
    top: 250px;
-=======
-   /*top: 210px;
-   right: 555px;*/
-   
-   border: 4px solid;
-   border-color: #9B1818;
->>>>>>> 2353fedc9c5ea00439e350813b921e5009071320
 
  }
 
