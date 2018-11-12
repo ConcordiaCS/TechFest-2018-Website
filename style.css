@@ -89,6 +89,11 @@ h1 {
 
 
 html, body {
+<<<<<<< HEAD
     max-width:;
 overflow-x: hidden;
+=======
+    max-width: 100%;
+    overflow-x: hidden;
+>>>>>>> fad87007bc3bbb966ccc68706bc979e5d0707539
 }
