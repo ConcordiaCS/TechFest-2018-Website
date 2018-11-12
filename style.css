@@ -60,7 +60,7 @@ h1 {
 }
 
  #about{
-   position: absolute;
+   position: static;
    border: 4px solid;
    border-color: #9B1818;
    background-color: #f3f3f3;
@@ -69,15 +69,18 @@ h1 {
    margin: auto;
    padding: 15px;
    text-decoration-color: #FFFFFF;
+   text-align: justify;
  }
 
  #techFest {
-   position: absolute;
+   position: relative;
+   margin: auto;
    text-align: center;
-   bottom: 0px;
-   width: 100%;
+   padding-top: 20px;
+   /*bottom: 0px;
+   /*width: 50%;
    top: 250px;
-   left: 1px;
+   left: 1px;*/
  }
 
 #link {
