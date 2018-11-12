@@ -35,17 +35,6 @@ h1 {
   width: 100%;
   top: 150px;
   left: -550px;
-
-  /* above works but when you use the bar to scroll left and right it doesn't work
-  below is the original code
-
-/*
-position: absolute;
-top: 150px;
-left: 50px;
-*/
-
-
 }
 
 #clhsbuilding {
@@ -83,7 +72,6 @@ left: 50px;
  }
 
  #techFest {
-   border-style: outset;
    position: absolute;
    text-align: center;
    bottom: 0px;
