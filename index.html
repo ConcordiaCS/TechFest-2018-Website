@@ -12,7 +12,12 @@
         <h1>BMI Calculator</h1>
       </div>
 
-        <div id="input" class="center">
+      <div class="row">
+        <div id="clhslogo" class="column">
+          <img src="clhslogo.png" title="CLHS Logo">
+        </div>
+
+        <div id="input" class="column">
             <p>Enter your name here:<br>
             <input id="name" type="text" name="name" required><br>
             <br>
@@ -26,14 +31,10 @@
             <button type="button" onclick="calculate()">Calculate</button></p>
         </div>
 
-        <div id="clhslogo">
-          <img src="clhslogo.png" title="CLHS Logo">
-        </div>
-
-        <div id="clhsbuilding">
+        <div id="clhsbuilding" class="column">
           <img src="clhsbuilding.jpeg" title="CLHS Building">
         </div>
-
+      </div>
         <div id="output">
             <p id="result"></p>
         </div>
